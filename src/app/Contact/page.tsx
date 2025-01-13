@@ -15,6 +15,7 @@ const ContactPage = () => {
                 type="text"
                 id="name"
                 name="name"
+                required
                 className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#8B4E61]"
               />
             </div>
@@ -28,6 +29,7 @@ const ContactPage = () => {
                 type="email"
                 id="email"
                 name="email"
+                required  
                 className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#8B4E61]"
               />
             </div>
